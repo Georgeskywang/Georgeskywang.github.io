@@ -29,7 +29,7 @@ if(! localStorage.getItem('name')){
    setUserName();
 }else{
     var storedName=localStorage.getItem('name');
-    myHeading.innerHTML='Digital Forensic'+storedName;
+    myHeading.innerHTML='Digital Forensic,'+storedName;
 }
 
 myButton.onclick=function(){
